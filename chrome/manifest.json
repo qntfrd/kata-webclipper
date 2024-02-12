@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Web Clipper",
+  "version": "0.0.0",
+  "description": "A simple web clipper",
+  "icons": {
+    "48": "images/icon-48.png",
+    "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["js/content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
